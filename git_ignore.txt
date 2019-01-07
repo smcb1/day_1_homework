@@ -1,0 +1,6 @@
+Touch .gitignore to create a .gitignore file.
+
+A .gitignore file is used to ensure files that you do not wish to 'check-in' are not included.
+A .gitignore file should be committed into your repo to share the ignore rules with users who clone it.
+A .gitignore file can include patterns *.rb or *.class for example.
+A .gitignore file means you can add the whole directory and not worry about your ignored files.

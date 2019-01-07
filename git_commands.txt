@@ -1,0 +1,21 @@
+mkdir day_1
+cd day_1
+mkdir homework
+cd homework
+touch git_commands.txt git_ignore.txt
+git init [init the repo]
+vi git_commands (add content) :wq!
+vi git_ignore (add content) :wq!
+git add -A [stage the files]
+git commit -m "Day one homework" [commit the files]
+gst [status]
+vi git_commands (more content) :wq! [change the files]
+vi git_ignore (more content) :wq! [change the files]
+git add -A [stage the updated files]
+git commit -m "Day one homework" [commit the updated files]
+gst [status]
+
+create new github repo [https://github.com/smcb1/day_1_homework]
+
+git remote add origin git@github.com:smcb1/day_1_homework.git
+git push -u origin master
